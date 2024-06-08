@@ -1,0 +1,55 @@
+{
+  "id": 1,
+  "name": "Jackson",
+  "account": {
+    "id": 1,
+    "number": "05.347954-1",
+    "agency": "1020",
+    "balance": 624.45,
+    "limit": 2000.00
+  },
+  "card": {
+    "id": 1,
+    "number": "xxxx xxxx xxxx 1111",
+    "limit": 2000.00
+  },
+  "features": [
+    {
+      "id": 1,
+      "icon": "https://dio.me.github.io/santander-dev-week-xxxx-api/icons/pix.svg",
+      "description": "PIX"
+    },
+    {
+      "id": 2,
+      "icon": "https://dio.me.github.io/santander-dev-week-xxxx-api/icons/pay.svg",
+      "description": "Pagar"
+    },
+    {
+      "id": 3,
+      "icon": "https://dio.me.github.io/santander-dev-week-xxxx-api/icons/transfer.svg",
+      "description": "Transferir"
+    },
+    {
+      "id": 4,
+      "icon": "https://dio.me.github.io/santander-dev-week-xxxx-api/icons/account.svg",
+      "description": "Conta Corrente"
+    },
+    {
+      "id": 5,
+      "icon": "https://dio.me.github.io/santander-dev-week-xxxx-api/icons/cards.svg",
+      "description": "Cartões"
+    }
+  ],
+  "news": [
+    {
+      "id": 2,
+      "icon": "https://dio.me.github.io/santander-dev-week-xxxx-api/icons/insurance.svg",
+      "description": "Venha para o Santander vários serviços: Casa, seguro de vida, etc. Mais de 50 serviços pra você. Confira!"
+    },
+    {
+      "id": 1,
+      "icon": "https://dio.me.github.io/santander-dev-week-xxxx-api/icons/credit.svg",
+      "description": "O Santander tem soluções de crédito sob medida pra você. Confira, junte-se a nós!"
+    }
+  ]
+}
