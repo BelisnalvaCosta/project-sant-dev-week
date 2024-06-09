@@ -1,13 +1,25 @@
 package me.dio;
 
+import jakarta.persistence.*;
+
 import java.math.BigDecimal;
 
+@Entity(name = "tb_account")
 public class Account {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Column(unique = true)
     private String number;
     private String agency;
 
+    // Ex.: 99.999.999.999,99
+    @Column(precision = 13, scale = 2)
     private BigDecimal balance;
+
+    @Column(name = "additional_limit", precision = 13, scale = 2)
     private BigDecimal limit;
 
     public Long getId() {
