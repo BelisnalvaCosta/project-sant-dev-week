@@ -58,10 +58,10 @@ classDiagram
 ### [https://sdw-2023-prd.up.railway.app/swagger-ui.html](https://sdw-2023-prd.up.railway.app/swagger-ui.html)
 
 
-### IMPORTANTE
+### IMPORTANTE exemplo do projeto de 2023
 
 Desenvolvimento da tela inicial do App do Santander (Figma)
 - URL de Produção: https://sdw-2023-prd.up.railway.app/users/1
 - Mock (Backup): https://digitalinnovationone.github.io/santander-dev-week-2023-api/mocks/find_one.json
 
-[1^]: Projeto de autoria do Expert Venilton FalvoJr (DIO).
+[1]: Projeto de autoria do Expert Venilton FalvoJr (DIO).
