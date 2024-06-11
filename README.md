@@ -1,4 +1,4 @@
-# Projec Santander Dev Week Java API [1^]
+# Projec Santander Dev Week Java API
 
 RESTful API da Santander Dev Week construída em Java 17 com Spring Boot 3.
 
@@ -64,4 +64,4 @@ Desenvolvimento da tela inicial do App do Santander (Figma)
 - URL de Produção: https://sdw-2023-prd.up.railway.app/users/1
 - Mock (Backup): https://digitalinnovationone.github.io/santander-dev-week-2023-api/mocks/find_one.json
 
-[1^]: Projeto de autoria do Expert Venilton FalvoJr (DIO).
+ Projeto de autoria do Expert Venilton FalvoJr (DIO).
