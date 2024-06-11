@@ -10,6 +10,10 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
+import me.dio.domain.model.Account;
+import me.dio.domain.model.Card;
+import me.dio.domain.model.Feature;
+import me.dio.domain.model.News;
 
 @Entity(name = "tb_user")
 public class User {

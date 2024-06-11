@@ -1,4 +1,4 @@
-package me.dio.domain.service.exception;
+package me.dio.service.exception;
 
 public class NotFoundException extends BusinessException {
 

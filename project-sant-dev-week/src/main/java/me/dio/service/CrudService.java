@@ -1,4 +1,4 @@
-package me.dio.domain.service;
+package me.dio.service;
 
 import java.util.List;
 

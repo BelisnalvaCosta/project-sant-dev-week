@@ -1,10 +1,10 @@
-package me.dio.domain.service.impl;
+package me.dio.service.impl;
 
 import me.dio.domain.model.User;
 import me.dio.domain.repository.UserRepository;
-import me.dio.domain.service.UserService;
-import me.dio.domain.service.exception.BusinessException;
-import me.dio.domain.service.exception.NotFoundException;
+import me.dio.service.exception.BusinessException;
+import me.dio.service.exception.NotFoundException;
+import me.dio.service.UserService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -28,7 +28,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Transactional(readOnly = true)
-    public List<User> findAll() {
+    public List findAll() {
         return this.userRepository.findAll();
     }
 

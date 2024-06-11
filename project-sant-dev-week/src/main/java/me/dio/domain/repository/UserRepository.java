@@ -13,9 +13,12 @@ public interface UserRepository {
 
     Optional<Object> findById(Long id);
 
-    User save(User userToCreate);
+    default User save(User userToCreate) {
+        return null;
+    }
 
     boolean existsByCardNumber(String number);
 
     void delete(User dbUser);
+
 }
